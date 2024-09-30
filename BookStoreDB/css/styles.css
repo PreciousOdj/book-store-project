@@ -1,0 +1,110 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    margin: 0;
+    background-color: peachpuff;
+}
+
+/* Header styles */
+header {
+    background-color: darkred;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #ff3121;
+    padding: 10px;
+	display: flex; 
+    flex-direction: column; 
+}
+nav a {
+    text-decoration: none;
+    color: white;
+	margin: 5px 0;
+	padding: 5px;
+}
+nav a:hover{
+	color: black;
+}
+
+nav li{
+	display: inline;
+}
+/*home page link */
+h2{
+color: black
+}
+
+div a{
+	text-decoration: none;
+}
+
+a h2:hover{
+	color:white;
+}
+
+/* Main content styles */
+main {
+	flex: 1; /* Grow and take available space */
+    padding: 20px;
+    margin-bottom: 10px;
+	height:50px;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+}
+.logo img{
+	width:50px;
+	float: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+	border-radius: 10px;
+	background-image: lightpeach;
+	border: 3px solid peach;
+	width: 600px;
+	margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: darkred;
+    color: peachpuff;
+    padding: 10px;
+    text-align: center;
+}

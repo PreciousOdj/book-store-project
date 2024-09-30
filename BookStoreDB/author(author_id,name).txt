@@ -1,0 +1,5 @@
+author(author_id,name)
+book(book_id, title, code, price, published, edition, publisher, author_id, subject_id)
+cart(cart_id, date, price, edition, customer_id)
+customer(customer_id, name, email, password, phone_number)
+subject(subject_id, subject_name)
