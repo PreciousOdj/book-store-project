@@ -19,7 +19,7 @@
     <nav>
         <ul>
             <li><a href="home.php">Home</a></li>
-            <li><a href="books2.php">Books</a></li>
+            <li><a href="books2.php">Explore</a></li>
             <li><a href="logout.php">Logout</a></li>
             <li><a href="cart.php">Cart</a></li>
         </ul>
