@@ -131,3 +131,4 @@ The database uses **phpMyAdmin** and MariaDB to store and manage information. Th
 4. **Additional Features**:
    - Add user reviews and ratings for books.
    - Include a recommendation system based on past orders.
+<img width="1280" height="1306" alt="image" src="https://github.com/user-attachments/assets/f8781201-3a1e-4f64-8cfb-3995dac07c94" />
